@@ -2,6 +2,7 @@ package com.weslleyfornari.workshopmongo.dto;
 
 import java.io.Serializable;
 
+
 import com.weslleyfornari.workshopmongo.domain.User;
 
 public class UserDTO implements Serializable{

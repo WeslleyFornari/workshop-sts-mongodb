@@ -14,7 +14,7 @@ import com.weslleyfornari.workshopmongo.repository.UserRepository;
 @Configuration
 public class Instantiation implements CommandLineRunner {
 	
-	@Autowired
+	@Autowired //INJECAO DE DEPENDENCIA AUTOMATICA DE TODAS AS CLASSES
 	private UserRepository userRep;
 	
 
