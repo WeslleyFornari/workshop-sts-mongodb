@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.weslleyfornari.workshopmongo.domain.User;
 import com.weslleyfornari.workshopmongo.repository.UserRepository;
 
+
 @Service
 public class UserService {
 	

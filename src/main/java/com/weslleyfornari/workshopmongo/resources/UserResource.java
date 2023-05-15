@@ -21,7 +21,7 @@ public class UserResource {
 	
 	@GetMapping // ENDPOINT NO POSTMAN
 	public ResponseEntity<List<User>> findAll(){
-	;
+	
 		List<User> lista = serv.findAll();
 		return ResponseEntity.ok().body(lista);
 		
